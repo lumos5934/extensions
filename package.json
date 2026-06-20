@@ -1,0 +1,11 @@
+{
+  "name": "com.llib.extensions",
+  "version": "1.0.0",
+  "displayName": "Extensions",
+  "description": "여러 타입에 대한 Extension Method 모음 입니다.",
+  "unity": "2022.3",
+  "author": {
+    "name": "LUMOS",
+    "email": "lumos5934@gmail.com"
+  }
+}
