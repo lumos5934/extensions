@@ -7,6 +7,14 @@
 
 ## 📖API
 
+#### Image
+**`SetNativePivot()`** : 원본 스프라이트의 피벗을 반영합니다.<br>
+<img width="391" height="117" alt="image" src="https://github.com/user-attachments/assets/593ada8a-06cd-485d-93df-268f2f4ff3b2" />
+
+
+<br>
+
+
 #### Transform
 **`SetPositionX(x)`** : 월드 기준 X 위치만 변경합니다.  
 **`SetPositionY(y)`** : 월드 기준 Y 위치만 변경합니다.  
