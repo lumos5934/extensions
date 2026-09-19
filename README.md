@@ -7,6 +7,13 @@
 
 ## 📖API
 
+#### Image
+**`SetNativeTransform()`** : 원본 스프라이트의 피벗을 반영해 이미지의 사이즈와, 포지션, 피벗을 조정합니다.
+<img width="467" height="262" alt="image" src="https://github.com/user-attachments/assets/324acbab-5b65-4fd5-861a-fbaaf221f3f4" />
+
+<br>
+
+
 #### Transform
 **`SetPositionX(x)`** : 월드 기준 X 위치만 변경합니다.  
 **`SetPositionY(y)`** : 월드 기준 Y 위치만 변경합니다.  
