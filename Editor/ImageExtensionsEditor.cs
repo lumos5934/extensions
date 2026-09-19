@@ -13,7 +13,7 @@ namespace LLib.Extensions
         {
             base.OnInspectorGUI();
 
-            bool canSetNativePivot = true;
+            bool canNativePivot = true;
             foreach (Object t in targets)
             {
                 Image image = t as Image;
@@ -22,26 +22,29 @@ namespace LLib.Extensions
 
                 if (!valid)
                 {
-                    canSetNativePivot = false;
+                    canNativePivot = false;
                     break;
                 }
             }
 
-            if (!canSetNativePivot)
+            if (!canNativePivot)
                 return;
 
-            EditorGUILayout.Space();
+            GUILayout.BeginHorizontal();
+            GUILayout.Space(EditorGUIUtility.labelWidth);
 
-            if (GUILayout.Button("Set Native Transform"))
+            if (GUILayout.Button("Set Native Pivot"))
             {
                 foreach (Object t in targets)
                 {
                     Image image = t as Image;
-                    Undo.RecordObject(image.rectTransform, "Set Native Transform");
-                    image.SetNativeTransform();
+                    Undo.RecordObject(image.rectTransform, "Set Native Pivot");
+                    image.SetNativePivot();
                     EditorUtility.SetDirty(image.rectTransform);
                 }
             }
+
+            GUILayout.EndHorizontal();
         }
     }
 }
