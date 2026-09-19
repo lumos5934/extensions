@@ -1,0 +1,18 @@
+{
+    "name": "LLib.Extensions.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:347bf83e74f36c547b68bb58cf1cb97d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
